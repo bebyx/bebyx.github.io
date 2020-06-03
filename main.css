@@ -1,0 +1,11 @@
+body {
+	margin: 4rem auto;
+	max-width: 750px;
+	padding: 0 1rem;
+	font-size: 1.5rem;
+	font-family: "Liberation Sans", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: FreeSans, Arial, sans-serif;
+}

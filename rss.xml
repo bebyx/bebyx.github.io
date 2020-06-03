@@ -1,0 +1,16 @@
+<? xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+	<title>Txtwb</title>
+	<link>https:/bebyx.co.ua/txtwb</link>
+	<description>Тексти українською мовою.</description>
+	<language>uk-UA</language>
+	<item>
+		<title>Поетика Арістотеля</title>
+		<link>https://bebyx.co.ua/txtwb/storage/poetyka.html</link>
+		<description>Класичний і канонічний текст про те, що таке поезія.</description>
+	</item>
+</channel>
+
+</rss>
