@@ -2,19 +2,24 @@
 <rss version="2.0">
 
 <channel>
-	<title>Txtwb</title>
-	<link>https://bebyx.co.ua/txtwb</link>
+	<title>bebyx: сайт Артема Бебика</title>
+	<link>https://bebyx.co.ua</link>
 	<description>Тексти українською мовою.</description>
 	<language>uk-UA</language>
-	<item>
-		<title>Поетика Арістотеля</title>
-		<link>https://bebyx.co.ua/books/poetyka.html</link>
-		<description>Класичний і канонічний текст про те, що таке поезія.</description>
-	</item>
 	<item>
 		<title>Чому я не люблю слова "контент"?</title>
 		<link>https://bebyx.co.ua/log/anti-content.html</link>
 		<description>Моя відповідь — відповідь Річарда Столмена.</description>
+	</item>
+	<item>
+		<title>Doas — полегшена альтернатива sudo для GNU/Linux і *BSD</title>
+		<link>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</link>
+		<description>Doas — мінімалістична альтернатива утиліті sudo. Встановіть, налаштуйте і користуйтеся.</description>
+	</item>
+	<item>
+		<title>Поетика Арістотеля</title>
+		<link>https://bebyx.co.ua/books/poetyka.html</link>
+		<description>Класичний і канонічний текст про те, що таке поезія.</description>
 	</item>
 </channel>
 
