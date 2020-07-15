@@ -8,8 +8,13 @@
 	<language>uk-UA</language>
 	<item>
 		<title>Поетика Арістотеля</title>
-		<link>https://bebyx.co.ua/txtwb/books/poetyka.html</link>
+		<link>https://bebyx.co.ua/books/poetyka.html</link>
 		<description>Класичний і канонічний текст про те, що таке поезія.</description>
+	</item>
+	<item>
+		<title>Чому я не люблю слова "контент"?</title>
+		<link>https://bebyx.co.ua/log/anti-content.html</link>
+		<description>Моя відповідь — відповідь Річарда Столмена.</description>
 	</item>
 </channel>
 
