@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
 
 <channel>
+	<atom:link href="https://bebyx.co.ua/rss.xml" rel="self" type="application/rss+xml" />
 	<title>bebyx: сайт Артема Бебика</title>
 	<link>https://bebyx.co.ua</link>
 	<description>Тексти українською мовою.</description>
 	<language>uk-UA</language>
 	<item>
-		<title>Чому я не люблю слова "контент"?</title>
-		<link>https://bebyx.co.ua/log/anti-content.html</link>
-		<description>Моя відповідь — відповідь Річарда Столмена.</description>
+		<title>Поетика Арістотеля</title>
+		<link>https://bebyx.co.ua/books/poetyka.html</link>
+		<guid>https://bebyx.co.ua/books/poetyka.html</guid>
+		<description>Класичний і канонічний текст про те, що таке поезія.</description>
 	</item>
 	<item>
 		<title>Doas — полегшена альтернатива sudo для GNU/Linux і *BSD</title>
 		<link>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</link>
+		<guid>https://bebyx.co.ua/books/poetyka.html</guid>
 		<description>Doas — мінімалістична альтернатива утиліті sudo. Встановіть, налаштуйте і користуйтеся.</description>
 	</item>
 	<item>
-		<title>Поетика Арістотеля</title>
-		<link>https://bebyx.co.ua/books/poetyka.html</link>
-		<description>Класичний і канонічний текст про те, що таке поезія.</description>
+		<title>Чому я не люблю слова "контент"?</title>
+		<link>https://bebyx.co.ua/log/anti-content.html</link>
+		<guid>https://bebyx.co.ua/books/poetyka.html</guid>
+		<description>Моя відповідь — відповідь Річарда Столмена.</description>
 	</item>
+
 </channel>
 
 </rss>
