@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
-
 <channel>
 	<atom:link href="https://bebyx.co.ua/rss.xml" rel="self" type="application/rss+xml" />
 	<title>bebyx: сайт Артема Бебика</title>
@@ -18,12 +17,14 @@
 		<title>Doas — полегшена альтернатива sudo для GNU/Linux і *BSD</title>
 		<link>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</link>
 		<guid>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</guid>
+		<pubDate>Thu, 12 Mar 2020 16:25:26 EEST</pubDate>
 		<description>Doas — мінімалістична альтернатива утиліті sudo. Встановіть, налаштуйте і користуйтеся.</description>
 	</item>
 	<item>
 		<title>Чому я не люблю слова "контент"?</title>
 		<link>https://bebyx.co.ua/log/anti-content.html</link>
 		<guid>https://bebyx.co.ua/log/anti-content.html</guid>
+		<pubDate>Wed, 15 Jul 2020 12:05:00 EEST</pubDate>
 		<description>Моя відповідь — відповідь Річарда Столмена.</description>
 	</item>
 
