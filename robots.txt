@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://bebyx.co.ua/sitemap.xml
