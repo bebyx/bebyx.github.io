@@ -9,6 +9,13 @@
 	<language>uk-UA</language>
 
 	<item>
+		<title>Моя думка про "новий" правопис</title>
+		<link>https://bebyx.co.ua/log/pravopys.html</link>
+		<guid>https://bebyx.co.ua/log/pravopys.html</guid>
+		<pubDate>Tue, 28 May 2019 11:46:00 +0300</pubDate>
+		<description>Моя думка про "новий" правопис української мови. Коротко і ясно.</description>
+	</item>
+	<item>
 		<title>Doas — полегшена альтернатива sudo для GNU/Linux і *BSD</title>
 		<link>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</link>
 		<guid>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</guid>
@@ -28,6 +35,13 @@
 		<guid>https://bebyx.co.ua/log/anti-content.html</guid>
 		<pubDate>Wed, 15 Jul 2020 12:05:00 +0300</pubDate>
 		<description>Моя відповідь — відповідь Річарда Столмена.</description>
+	</item>
+	<item>
+		<title>Ґуґлонацизм проти українців</title>
+		<link>https://bebyx.co.ua/log/google-nazi.html</link>
+		<guid>https://bebyx.co.ua/log/google-nazi.html</guid>
+		<pubDate>Fri, 17 Jul 2020 16:14:00 +0300</pubDate>
+		<description>Українцю! Ґуґл не просто дискрімінує тебе за мовною ознакою, а й уважає надто тупим, аби ти знав англійську.</description>
 	</item>
 
 </channel>
