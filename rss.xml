@@ -7,18 +7,20 @@
 	<link>https://bebyx.co.ua</link>
 	<description>Тексти українською мовою.</description>
 	<language>uk-UA</language>
-	<item>
-		<title>Поетика Арістотеля</title>
-		<link>https://bebyx.co.ua/books/poetyka.html</link>
-		<guid>https://bebyx.co.ua/books/poetyka.html</guid>
-		<description>Класичний і канонічний текст про те, що таке поезія.</description>
-	</item>
+
 	<item>
 		<title>Doas — полегшена альтернатива sudo для GNU/Linux і *BSD</title>
 		<link>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</link>
 		<guid>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</guid>
 		<pubDate>Thu, 12 Mar 2020 16:25:26 +0300</pubDate>
 		<description>Doas — мінімалістична альтернатива утиліті sudo. Встановіть, налаштуйте і користуйтеся.</description>
+	</item>
+	<item>
+		<title>Як під'єднати Gentoo GNU/Linux до Wifi</title>
+		<link>https://bebyx.co.ua/log/gentoo-wifi.html</link>
+		<guid>https://bebyx.co.ua/log/gentoo-wifi.html</guid>
+		<pubDate>Fri, 10 Jul 2020 17:47:01 +0300</pubDate>
+		<description>Як під'єднати Gentoo GNU/Linux до Wifi — інструкція українською мовою.</description>
 	</item>
 	<item>
 		<title>Чому я не люблю слова "контент"?</title>
