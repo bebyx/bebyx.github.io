@@ -1,49 +1,45 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-
-<channel>
-	<atom:link href="https://bebyx.co.ua/rss.xml" rel="self" type="application/rss+xml" />
-	<title>bebyx: сайт Артема Бебика</title>
-	<link>https://bebyx.co.ua</link>
-	<description>Тексти українською мовою.</description>
-	<language>uk-UA</language>
-
-	<item>
-		<title>Моя думка про "новий" правопис</title>
-		<link>https://bebyx.co.ua/log/pravopys.html</link>
-		<guid>https://bebyx.co.ua/log/pravopys.html</guid>
-		<pubDate>Tue, 28 May 2019 11:46:00 +0300</pubDate>
-		<description>Моя думка про "новий" правопис української мови. Коротко і ясно.</description>
-	</item>
-	<item>
-		<title>Doas — полегшена альтернатива sudo для GNU/Linux і *BSD</title>
-		<link>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</link>
-		<guid>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</guid>
-		<pubDate>Thu, 12 Mar 2020 16:25:26 +0300</pubDate>
-		<description>Doas — мінімалістична альтернатива утиліті sudo. Встановіть, налаштуйте і користуйтеся.</description>
-	</item>
-	<item>
-		<title>Як під'єднати Gentoo GNU/Linux до Wifi</title>
-		<link>https://bebyx.co.ua/log/gentoo-wifi.html</link>
-		<guid>https://bebyx.co.ua/log/gentoo-wifi.html</guid>
-		<pubDate>Fri, 10 Jul 2020 17:47:01 +0300</pubDate>
-		<description>Як під'єднати Gentoo GNU/Linux до Wifi — інструкція українською мовою.</description>
-	</item>
-	<item>
-		<title>Чому я не люблю слова "контент"?</title>
-		<link>https://bebyx.co.ua/log/anti-content.html</link>
-		<guid>https://bebyx.co.ua/log/anti-content.html</guid>
-		<pubDate>Wed, 15 Jul 2020 12:05:00 +0300</pubDate>
-		<description>Моя відповідь — відповідь Річарда Столмена.</description>
-	</item>
-	<item>
-		<title>Ґуґлонацизм проти українців</title>
-		<link>https://bebyx.co.ua/log/google-nazi.html</link>
-		<guid>https://bebyx.co.ua/log/google-nazi.html</guid>
-		<pubDate>Fri, 17 Jul 2020 16:14:00 +0300</pubDate>
-		<description>Українцю! Ґуґл не просто дискрімінує тебе за мовною ознакою, а й уважає надто тупим, аби ти знав англійську.</description>
-	</item>
-
-</channel>
-
+	<channel>
+		<atom:link href="https://bebyx.co.ua/rss.xml" rel="self" type="application/rss+xml" />
+		<title>bebyx: сайт Артема Бебика</title>
+		<link>https://bebyx.co.ua</link>
+		<description>Тексти українською мовою.</description>
+		<language>uk-UA</language>
+		<item>
+			<title>bebyx: Як під'єднати Gentoo GNU/Linux до Wifi</title>
+			<link>https://bebyx.co.ua/log/gentoo-wifi.html</link>
+			<guid>https://bebyx.co.ua/log/gentoo-wifi.html</guid>
+			<pubDate>Fri, 10 Jul 2020 17:47:01 +0300</pubDate>
+			<description>Як під'єднати Gentoo GNU/Linux до Wifi — інструкція українською мовою.</description>
+		</item>
+		<item>
+			<title>bebyx: Doas — альтернатива sudo</title>
+			<link>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</link>
+			<guid>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</guid>
+			<pubDate>Thu, 12 Mar 2020 15:25:26 +0200</pubDate>
+			<description>Doas — мінімалістична альтернатива утиліті sudo. Встановіть, налаштуйте і користуйтеся.</description>
+		</item>
+		<item>
+			<title>bebyx: Ґуґлонацизм проти українців</title>
+			<link>https://bebyx.co.ua/log/google-nazi.html</link>
+			<guid>https://bebyx.co.ua/log/google-nazi.html</guid>
+			<pubDate>Fri, 17 Jul 2020 16:14:00 +0300</pubDate>
+			<description>Українцю! Ґуґл не просто дискрімінує тебе за мовною ознакою, а й уважає надто тупим, аби ти знав англійську.</description>
+		</item>
+		<item>
+			<title>bebyx: Чому я не люблю слова "контент"?</title>
+			<link>https://bebyx.co.ua/log/anti-content.html</link>
+			<guid>https://bebyx.co.ua/log/anti-content.html</guid>
+			<pubDate>Wed, 15 Jul 2020 12:05:00 +0300</pubDate>
+			<description>Чому я не люблю слова &quot;контент&quot;? Моя відповідь — відповідь Річарда Столмена.</description>
+		</item>
+		<item>
+			<title>bebyx: Моя думка про "новий" правопис</title>
+			<link>https://bebyx.co.ua/log/pravopys.html</link>
+			<guid>https://bebyx.co.ua/log/pravopys.html</guid>
+			<pubDate>Thu, 28 May 2020 11:46:00 +0300</pubDate>
+			<description>Моя думка про &quot;новий&quot; правопис української мови. Коротко і ясно.</description>
+		</item>
+	</channel>
 </rss>
