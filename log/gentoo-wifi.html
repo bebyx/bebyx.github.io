@@ -1,138 +1,141 @@
 <!doctype html>
 <html class="no-js" lang="uk">
 
-<head>
-	<meta charset="utf-8">
-	<title>bebyx: Як під'єднати Gentoo GNU/Linux до Wifi</title>
-	<meta name="description" content="Як під'єднати Gentoo GNU/Linux до Wifi — інструкція українською мовою.">
-	<meta name="author" content="Артем Бебик">
-	<meta name="keywords" content="GNU/Linux, Gentoo, Wifi">
-	<meta property="article:published_time" content="2020-07-10T17:47:01+03:00" />
+	<head>
+		<meta charset="utf-8">
+		<title>bebyx: Як під'єднати Gentoo GNU/Linux до Wifi</title>
+		<meta name="description" content="Як під'єднати Gentoo GNU/Linux до Wifi — інструкція українською мовою.">
+		<meta name="author" content="Артем Бебик">
+		<meta name="keywords" content="GNU/Linux, Gentoo, Wifi">
+		<meta property="article:published_time" content="2020-07-10T17:47:01+03:00" />
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="apple-touch-icon" href="icon.png">
-	<link rel="stylesheet" href="../main.css">
-</head>
+		<link rel="apple-touch-icon" href="icon.png">
+		<link rel="stylesheet" href="../main.css">
+	</head>
 
-<body>
-  <h1>Як під'єднати Gentoo GNU/Linux до Wifi</h1>
+	<body>
+		<article>
 
-  <p>Якщо встановлюєте мінімалістичну систему з Gentoo, то вам конче треба вміти під'єднатися до Інтернету, і то радше всього по Wifi — 2к20 надворі.</p>
+		  <h1>Як під'єднати Gentoo GNU/Linux до Wifi</h1>
 
-  <p>Я мав трохи мороки з тим, бо інфа по вайфаю розкидана по вікі Gentoo в різних місцях, і я початково припустився деяких хиб, налаштовуючи ядро та запускаючи бездротову мережу.</p>
+		  <p>Якщо встановлюєте мінімалістичну систему з Gentoo, то вам конче треба вміти під'єднатися до Інтернету, і то радше всього по Wifi — 2к20 надворі.</p>
 
-  <p>Все виправив, усе працює. І отримав гарний досвід, яким хочу поділитися, склавши короткий ґайд з усіх необхідних кроків, що їх я зробив.</p>
+		  <p>Я мав трохи мороки з тим, бо інфа по вайфаю розкидана по вікі Gentoo в різних місцях, і я початково припустився деяких хиб, налаштовуючи ядро та запускаючи бездротову мережу.</p>
 
-  <p>Ґайд, який, гадаю, згодиться для будь-якого домашнього лаптопа з Gentoo.</p>
+		  <p>Все виправив, усе працює. І отримав гарний досвід, яким хочу поділитися, склавши короткий ґайд з усіх необхідних кроків, що їх я зробив.</p>
 
-  <p>Поїхали.</p>
+		  <p>Ґайд, який, гадаю, згодиться для будь-якого домашнього лаптопа з Gentoo.</p>
 
-  <h2>Під'єднатися до Wifi коли встановлюєте Gentoo</h2>
+		  <p>Поїхали.</p>
 
-  <p>Під час інсталяції, а це третій етап Посібника Ґенту, під'єднатися до Інтернета по вайфаю доволі просто.</p>
+		  <h2>Під'єднатися до Wifi коли встановлюєте Gentoo</h2>
 
-  <p>Система LiveCD сама підшукує потрібні для вашої карти бездротового під'єднання до мережі драйвери, а до того містить у собі всі потрібні й непотрібні мережеві інструменти (деякі з котрих — потрібні — ми згодом скачаємо для нашої свіжої системи).</p>
+		  <p>Під час інсталяції, а це третій етап Посібника Ґенту, під'єднатися до Інтернета по вайфаю доволі просто.</p>
 
-  <p>Я встановлював Gentoo з мінімального CD (який можна скачати <a href="https://www.gentoo.org/downloads/" target="_blank">тут</a>) — і під'єднатися до домашнього Wifi стало два рядки в терміналі:</p>
+		  <p>Система LiveCD сама підшукує потрібні для вашої карти бездротового під'єднання до мережі драйвери, а до того містить у собі всі потрібні й непотрібні мережеві інструменти (деякі з котрих — потрібні — ми згодом скачаємо для нашої свіжої системи).</p>
 
-  <code>wpa_passphrase ssid password > /etc/wpa_supplicant/wpa_supplicant.conf</code><br/>
-  <code>wpa_supplicant -B -i wlp5s0 -c /etc/wpa_supplicant/wpa_supplicant.conf</code>
+		  <p>Я встановлював Gentoo з мінімального CD (який можна скачати <a href="https://www.gentoo.org/downloads/" target="_blank">тут</a>) — і під'єднатися до домашнього Wifi стало два рядки в терміналі:</p>
 
-  <p>Де <code>ssid</code> — назва вашої вайфай-мережі (напр., <code>tolyan286</code>), <code>password</code> — пароль до вайфаю, а <code>wlp5s0</code> — назва мережевого інтерфейсу бездротової мережевої карти (у вас він може називатися інакше, напр. <code>wlan0</code>, <code>wlp2s0</code> тощо, введіть у термінал <code>ifconfig</code> і подивіться).</p>
+		  <code>wpa_passphrase ssid password > /etc/wpa_supplicant/wpa_supplicant.conf</code><br/>
+		  <code>wpa_supplicant -B -i wlp5s0 -c /etc/wpa_supplicant/wpa_supplicant.conf</code>
 
-  <p>Готово. Можете глянути <code>ifconfig</code>, де в даних бездротового мережевого інтерфейсу має показатися IP-адреса, і пінганути якийсь сайт, наприклад:</p>
+		  <p>Де <code>ssid</code> — назва вашої вайфай-мережі (напр., <code>tolyan286</code>), <code>password</code> — пароль до вайфаю, а <code>wlp5s0</code> — назва мережевого інтерфейсу бездротової мережевої карти (у вас він може називатися інакше, напр. <code>wlan0</code>, <code>wlp2s0</code> тощо, введіть у термінал <code>ifconfig</code> і подивіться).</p>
 
-  <code>ping www.gentoo.org</code>
+		  <p>Готово. Можете глянути <code>ifconfig</code>, де в даних бездротового мережевого інтерфейсу має показатися IP-адреса, і пінганути якийсь сайт, наприклад:</p>
 
-  <p>Якщо видає рядками щось на кшталт <code>64 bytes from bla-bla-bla</code>, то все гаразд — продовжуйте встановлювати вашу систему. Певне наступним кроком після того, як під'єднаєте до мережі, має бути <a href="https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Disks" target="_blank">Підготовка дисків</a>.</p>
+		  <code>ping www.gentoo.org</code>
 
-  <p>(Коли що, перервати пінго-видачу як і будь-що в терміналі Лінукса — <b>Ctrl</b>+<b>C</b>. Або додайти в пінгову команду опцію <code>ping -c 3</code>, де замість трьох можете поставити будь-яку цифру — стільки рядків і видасть пінґ.)</p>
+		  <p>Якщо видає рядками щось на кшталт <code>64 bytes from bla-bla-bla</code>, то все гаразд — продовжуйте встановлювати вашу систему. Певне наступним кроком після того, як під'єднаєте до мережі, має бути <a href="https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Disks" target="_blank">Підготовка дисків</a>.</p>
 
-  <h2>Налаштувати ядро Лінукса для Wifi</h2>
+		  <p>(Коли що, перервати пінго-видачу як і будь-що в терміналі Лінукса — <b>Ctrl</b>+<b>C</b>. Або додайти в пінгову команду опцію <code>ping -c 3</code>, де замість трьох можете поставити будь-яку цифру — стільки рядків і видасть пінґ.)</p>
 
-  <p>Якщо ви ще не знайомі з тим як конфігурувати ядро Лінукса, то Вікі Ґенту вас навчить. :)</p>
+		  <h2>Налаштувати ядро Лінукса для Wifi</h2>
 
-  <p>Отже,</p>
+		  <p>Якщо ви ще не знайомі з тим як конфігурувати ядро Лінукса, то Вікі Ґенту вас навчить. :)</p>
 
-  <code>cd /usr/cd/linux</code><br/>
-  <code>make menuconfig</code>
+		  <p>Отже,</p>
 
-  <p>До речі. Я конфіґурував ядро "вручну", однак десь бачив, що по дефолту <code>genkernel</code> (автоматична конфіґурація ядра) Wifi не налаштовує. Тож певне доведеться ручками.</p>
+		  <code>cd /usr/cd/linux</code><br/>
+		  <code>make menuconfig</code>
 
-  <h3>Підтримка бездротових мереж</h3>
+		  <p>До речі. Я конфіґурував ядро "вручну", однак десь бачив, що по дефолту <code>genkernel</code> (автоматична конфіґурація ядра) Wifi не налаштовує. Тож певне доведеться ручками.</p>
 
-  <p>Як увімкнути підтримку бездротових мереж у ядрі Лінукса — <a href="https://wiki.gentoo.org/wiki/Wifi#Kernel" target="_blank">тут</a>.</p>
+		  <h3>Підтримка бездротових мереж</h3>
 
-  <h3>Драйвери устаткування</h3>
+		  <p>Як увімкнути підтримку бездротових мереж у ядрі Лінукса — <a href="https://wiki.gentoo.org/wiki/Wifi#Kernel" target="_blank">тут</a>.</p>
 
-  <p>Драйвери рекомендовано встановити як модулі, щоби вони могли співпрацювати з пропрієтарними драйверами, вони ж <code>firmware</code>.</p>
+		  <h3>Драйвери устаткування</h3>
 
-  <p><a href="https://forums.gentoo.org/viewtopic-p-7640156.html#7640156" target="_blank">NeddySeagoon</a> написав:</p>
+		  <p>Драйвери рекомендовано встановити як модулі, щоби вони могли співпрацювати з пропрієтарними драйверами, вони ж <code>firmware</code>.</p>
 
-  <blockquote cite="https://forums.gentoo.org/viewtopic-p-7640156.html#7640156">
-  There are four possible combinations for a module that needs fimware.<br/>
-  The module and firmware can both be in the kernel - that works<br/>
-  The module can be in /lib/modules and the firmware in /lib/firmware - that works too.<br/>
-  The other two combinations fail.
-  </blockquote>
+		  <p><a href="https://forums.gentoo.org/viewtopic-p-7640156.html#7640156" target="_blank">NeddySeagoon</a> написав:</p>
 
-  <p>Список драйверів, які вимагають <code>firmware</code>, можна <a href="https://wiki.gentoo.org/wiki/Wifi#Firmware" target="_blank">знайти на Вікі Ґенту</a>.</p>
+		  <blockquote cite="https://forums.gentoo.org/viewtopic-p-7640156.html#7640156">
+		  There are four possible combinations for a module that needs fimware.<br/>
+		  The module and firmware can both be in the kernel - that works<br/>
+		  The module can be in /lib/modules and the firmware in /lib/firmware - that works too.<br/>
+		  The other two combinations fail.
+		  </blockquote>
 
-  <p>Мій драйвер ніби не вимагав пропрієтарщини, але я все одно встановив його як модуль про всяк випадок:</p>
+		  <p>Список драйверів, які вимагають <code>firmware</code>, можна <a href="https://wiki.gentoo.org/wiki/Wifi#Firmware" target="_blank">знайти на Вікі Ґенту</a>.</p>
 
-  <p>Також для WPA чи WPA2 конче треба активувати <b>AES cipher</b>:</p>
+		  <p>Мій драйвер ніби не вимагав пропрієтарщини, але я все одно встановив його як модуль про всяк випадок:</p>
 
-  <blockquote>
-  Also be sure to enable AES cipher support in the kernel if the wireless network uses WPA or WPA2 encryption.
-  </blockquote>
+		  <p>Також для WPA чи WPA2 конче треба активувати <b>AES cipher</b>:</p>
 
-  <h2>Необхідні мережеві інструменти</h2>
+		  <blockquote>
+		  Also be sure to enable AES cipher support in the kernel if the wireless network uses WPA or WPA2 encryption.
+		  </blockquote>
 
-  <p>Дев'ятий і перед-перед-останній етап інсталяції Ґенту Лінукс — встановлення необхідних пакетів. Отут будьте пильними, бо може бути потім тяжко завести машинку.</p>
+		  <h2>Необхідні мережеві інструменти</h2>
 
-  <p>Що стосується мережевих пакетів, то ось:</p>
+		  <p>Дев'ятий і перед-перед-останній етап інсталяції Ґенту Лінукс — встановлення необхідних пакетів. Отут будьте пильними, бо може бути потім тяжко завести машинку.</p>
 
-  <p><b>dhcpcd</b> — це треба виділити величезними літерами в Gentoo Handbook. Пакет, який сконфігурує під'єднання до мережі, зокрема IP-адресу, gateway і такий інший стаф. <b>wpa_supplicant</b> — утиліта, якою ми вже користувалися під час інсталяції системи. Саме <code>wpa_supplicant</code> під'єднує вашу машину до Wifi роутера з протоколом WPA (який нині є звичним).</p>
+		  <p>Що стосується мережевих пакетів, то ось:</p>
 
-  <p>Це і все. Не ждали, хехех?</p>
+		  <p><b>dhcpcd</b> — це треба виділити величезними літерами в Gentoo Handbook. Пакет, який сконфігурує під'єднання до мережі, зокрема IP-адресу, gateway і такий інший стаф. <b>wpa_supplicant</b> — утиліта, якою ми вже користувалися під час інсталяції системи. Саме <code>wpa_supplicant</code> під'єднує вашу машину до Wifi роутера з протоколом WPA (який нині є звичним).</p>
 
-  <p>Нагадаю як установлювати (радше долучати) пакунки за допомогою Portage:</p>
+		  <p>Це і все. Не ждали, хехех?</p>
 
-  <code>emerge -a dhcpcd wpa_supplicant</code>
+		  <p>Нагадаю як установлювати (радше долучати) пакунки за допомогою Portage:</p>
 
-  <p>Другий важливий момент — <b>НЕ</b> встановлюйте <code>netifrc</code> за загальною порадою Посібника. Воно лише може запороти наше під'єднання через конфлікт керунків мережі.</p>
+		  <code>emerge -a dhcpcd wpa_supplicant</code>
 
-  <h2>Налаштувати Wifi в готовій Gentoo</h2>
+		  <p>Другий важливий момент — <b>НЕ</b> встановлюйте <code>netifrc</code> за загальною порадою Посібника. Воно лише може запороти наше під'єднання через конфлікт керунків мережі.</p>
 
-  <p>Перш за все, вітаю.</p>
+		  <h2>Налаштувати Wifi в готовій Gentoo</h2>
 
-  <p>Ви <a href="https://knowyourmeme.com/memes/install-gentoo" target="_blank" rel="nofollow">встановили Ґенту</a>!</p>
+		  <p>Перш за все, вітаю.</p>
 
-  <p>По-друге, звісно треба якнайшвидше під'єднатися до мережі, бо без Інтернету наша дистра мало що може. :)</p>
+		  <p>Ви <a href="https://knowyourmeme.com/memes/install-gentoo" target="_blank" rel="nofollow">встановили Ґенту</a>!</p>
 
-  <p>Насамперед робимо те, що перше робили під час інсталяції Gentoo. Додаємо дані про нашу бездротову мережу в файл конфігурації:</p>
+		  <p>По-друге, звісно треба якнайшвидше під'єднатися до мережі, бо без Інтернету наша дистра мало що може. :)</p>
 
-  <code>wpa_passphrase ssid password > /etc/wpa_supplicant/wpa_supplicant.conf</code>
+		  <p>Насамперед робимо те, що перше робили під час інсталяції Gentoo. Додаємо дані про нашу бездротову мережу в файл конфігурації:</p>
 
-  <p>А далі треба запускати <code>wpa_supplicant</code> автоматично, коли заводиться система.</p>
+		  <code>wpa_passphrase ssid password > /etc/wpa_supplicant/wpa_supplicant.conf</code>
 
-  <h3>Автоматичний запуск Wifi на старті системи</h3>
+		  <p>А далі треба запускати <code>wpa_supplicant</code> автоматично, коли заводиться система.</p>
 
-  <p>У файл конфігурації <code>/etc/conf.d/wpa_supplicant</code> додаємо аргументи запуску <code>wpa_supplicant</code>:<p>
+		  <h3>Автоматичний запуск Wifi на старті системи</h3>
 
-  <code>wpa_supplicant_args="-B -M -c/etc/wpa_supplicant/wpa_supplicant.conf"</code>
+		  <p>У файл конфігурації <code>/etc/conf.d/wpa_supplicant</code> додаємо аргументи запуску <code>wpa_supplicant</code>:<p>
 
-  <p>Тепер додаємо процес до <code>openrc</code>.</p>
+		  <code>wpa_supplicant_args="-B -M -c/etc/wpa_supplicant/wpa_supplicant.conf"</code>
 
-  <code>rc-update add wpa_supplicant default</code><br/>
-  <code>rc-service wpa_supplicant start</code>
+		  <p>Тепер додаємо процес до <code>openrc</code>.</p>
 
-  <p>Докладніше можна почитати <a href="https://wiki.gentoo.org/wiki/Network_management_using_DHCPCD" target="_blank">тут</a>.</p>
+		  <code>rc-update add wpa_supplicant default</code><br/>
+		  <code>rc-service wpa_supplicant start</code>
 
-  <p>Все! Вай-фай би мав уже працювати і автоматично запускатися, коли вмикається система.</p>
+		  <p>Докладніше можна почитати <a href="https://wiki.gentoo.org/wiki/Network_management_using_DHCPCD" target="_blank">тут</a>.</p>
 
-  <p><a href="/">Повернутися</a></p>
-</body>
+		  <p>Все! Вай-фай би мав уже працювати і автоматично запускатися, коли вмикається система.</p>
+
+		</article>
+		<nav><a href="/">Повернутися</a><nav>
+	</body>
 
 </html>

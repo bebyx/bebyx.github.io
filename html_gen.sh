@@ -37,10 +37,12 @@ echo  '\t\t<link rel="stylesheet" href="../main.css">' >> $dest
 echo  '\t\t</head>\n' >> $dest
 
 echo  '\t<body>' >> $dest
-echo  "\t\t<h1>$TITLE</h1>\n\n" >> $dest
+echo  '\t\t<article>\n' >> $dest
+echo  "\t\t\t<h1>$TITLE</h1>\n\n" >> $dest
 
 
-echo  '\t\t<p><a href="/">Повернутися</a></p>' >> $dest
+echo  '\t\t</article>' >> $dest
+echo  '\t\t<nav><a href="/">Повернутися</a></nav>' >> $dest
 echo  '\t</body>\n' >> $dest
 
 echo  '</html>' >> $dest

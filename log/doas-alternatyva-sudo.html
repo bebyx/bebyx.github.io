@@ -1,82 +1,87 @@
 <!doctype html>
 <html class="no-js" lang="uk">
 
-<head>
-	<meta charset="utf-8">
-	<title>bebyx: Doas — альтернатива sudo</title>
-	<meta name="description" content="Doas — мінімалістична альтернатива утиліті sudo. Встановіть, налаштуйте і користуйтеся.">
-	<meta name="author" content="Артем Бебик">
-	<meta name="keywords" content="GNU/Linux, sudo, doas, FreeBSD">
-	<meta property="article:published_time" content="2020-03-12T16:25:26+03:00" />
+	<head>
+		<meta charset="utf-8">
+		<title>bebyx: Doas — альтернатива sudo</title>
+		<meta name="description" content="Doas — мінімалістична альтернатива утиліті sudo. Встановіть, налаштуйте і користуйтеся.">
+		<meta name="author" content="Артем Бебик">
+		<meta name="keywords" content="GNU/Linux, sudo, doas, FreeBSD">
+		<meta property="article:published_time" content="2020-03-12T16:25:26+03:00" />
 
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="apple-touch-icon" href="icon.png">
-	<link rel="stylesheet" href="../main.css">
-</head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="apple-touch-icon" href="icon.png">
+		<link rel="stylesheet" href="../main.css">
+	</head>
 
-	<body>
-		<h1>Doas — полегшена альтернатива sudo для GNU/Linux і *BSD</h1>
+		<body>
+			<article>
 
-		<p>Якщо ви користуєтеся Лінуксом лише на <strong>домашньому комп'ютері</strong>, то скоріш за все вам не потрібна уся та розширена функціональність <code>sudo</code>, яка тримає в собі 30 років історії розвитку проекту.</p>
+				<h1>Doas — полегшена альтернатива sudo для GNU/Linux і *BSD</h1>
 
-		<p><strong>OpenBSD</strong>, початково Тед Унанґст, свого часу створили <strong>doas</strong>, дуже легку утиліту, щоб керувати дозволами користувачів. Як стверджує <a href="https://github.com/Duncaen/OpenDoas" target="_blank" rel="noopener noreferrer">офіційна документація</a>, <code>doas</code></p>
+				<p>Якщо ви користуєтеся Лінуксом лише на <strong>домашньому комп'ютері</strong>, то скоріш за все вам не потрібна уся та розширена функціональність <code>sudo</code>, яка тримає в собі 30 років історії розвитку проекту.</p>
 
-		<blockquote cite="https://github.com/Duncaen/OpenDoas"><q>надає 95% функціональності <code>sudo</code> з дрібкою основної бази коду.</q></blockquote>
+				<p><strong>OpenBSD</strong>, початково Тед Унанґст, свого часу створили <strong>doas</strong>, дуже легку утиліту, щоб керувати дозволами користувачів. Як стверджує <a href="https://github.com/Duncaen/OpenDoas" target="_blank" rel="noopener noreferrer">офіційна документація</a>, <code>doas</code></p>
 
-		<p>Далебі, <code>sudo</code> важить близько 5мб, натомість <code>doas</code> доходить лише до кількох кілобайтів.</p>
+				<blockquote cite="https://github.com/Duncaen/OpenDoas"><q>надає 95% функціональності <code>sudo</code> з дрібкою основної бази коду.</q></blockquote>
 
-		<p>А головне — файл конфіґурації в <code>doas</code> набагато простіший.</p>
+				<p>Далебі, <code>sudo</code> важить близько 5мб, натомість <code>doas</code> доходить лише до кількох кілобайтів.</p>
 
-		<p>Кілька років як <code>doas</code> вже портована на GNU/Linux і на FreeBSD.</p>
+				<p>А головне — файл конфіґурації в <code>doas</code> набагато простіший.</p>
 
-		<p>Отаман Вочевидячки підказує: щоб користуватися <code>doas</code>, треба спершу його встановити:</p>
+				<p>Кілька років як <code>doas</code> вже портована на GNU/Linux і на FreeBSD.</p>
 
-		<h3>Gentoo:</h3>
+				<p>Отаман Вочевидячки підказує: щоб користуватися <code>doas</code>, треба спершу його встановити:</p>
 
-		<code>emerge -a doas</code>
+				<h3>Gentoo:</h3>
 
-		<h3>FreeBSD:</h3>
+				<code>emerge -a doas</code>
 
-		<code>pkg install doas</code>
+				<h3>FreeBSD:</h3>
 
-		<hr/>
+				<code>pkg install doas</code>
 
-		<p>Коли встановилося, треба створити файл конфіґу <code>doas.conf</code>, котрий наразі не існує.</p>
+				<hr/>
 
-		<p>В Лінуксі цільова директорія для файлу має бути <code>/etc/</code>, у FreeBSD — <code>/usr/local/etc/</code>.</p>
+				<p>Коли встановилося, треба створити файл конфіґу <code>doas.conf</code>, котрий наразі не існує.</p>
 
-		<p>Скористуйтеся текстовим редактором вашого вибору, щоб створити файл. Я користуюся Vim'ом:</p>
+				<p>В Лінуксі цільова директорія для файлу має бути <code>/etc/</code>, у FreeBSD — <code>/usr/local/etc/</code>.</p>
 
-		<code>vim /etc/doas.conf</code>
+				<p>Скористуйтеся текстовим редактором вашого вибору, щоб створити файл. Я користуюся Vim'ом:</p>
 
-		<p>або для більш упорядкованого FreeBSD:</p>
+				<code>vim /etc/doas.conf</code>
 
-		<code>vim /usr/local/etc/doas.conf</code>
+				<p>або для більш упорядкованого FreeBSD:</p>
 
-		<p>І додаєте два рядки, щоб активувати дозволи для користувача:</p>
+				<code>vim /usr/local/etc/doas.conf</code>
 
-		<code>
-		permit nopass keepenv :wheel<br/>
-    permit nopass keepenv root as root
-		</code>
+				<p>І додаєте два рядки, щоб активувати дозволи для користувача:</p>
 
-		<p>Так, усього лиш два! На противагу купі визначень у конфіґурації <code>sudo</code>.</p>
+				<code>
+				permit nopass keepenv :wheel<br/>
+		    permit nopass keepenv root as root
+				</code>
 
-		<p>Звісно ж, ваш обраний користувач має бути в групі <code>wheel</code>.</p>
+				<p>Так, усього лиш два! На противагу купі визначень у конфіґурації <code>sudo</code>.</p>
 
-		<p>Можна додавати й по імені користувача замість імені групи — <code>:bebyx</code>, приміром.</p>
+				<p>Звісно ж, ваш обраний користувач має бути в групі <code>wheel</code>.</p>
 
-		<p>Відтак вводьте команди з <code>doas</code> попереду замість <code>sudo</code> — і всьо буде чотко. Наприклад:</p>
+				<p>Можна додавати й по імені користувача замість імені групи — <code>:bebyx</code>, приміром.</p>
 
-		<code>doas emerge -uaDN @world</code>
+				<p>Відтак вводьте команди з <code>doas</code> попереду замість <code>sudo</code> — і всьо буде чотко. Наприклад:</p>
 
-		<p>Якщо не хочете давати безпарольного доступу користувачеві, замість <code>nopass</code> поставте <code>persist</code>:</p>
+				<code>doas emerge -uaDN @world</code>
 
-		<code>permit persist keepenv :wheel</code>
+				<p>Якщо не хочете давати безпарольного доступу користувачеві, замість <code>nopass</code> поставте <code>persist</code>:</p>
 
-		<p>Це ввімкне стандартну в <code>sudo</code> функцію просити пароля лише вперше за сесію.</p>
+				<code>permit persist keepenv :wheel</code>
 
-		<p>Докладніше про трюки в <code>doas</code> можна почитати англійською: <a href="https://flak.tedunangst.com/post/doas-mastery" target="\_blank" rel="noopener noreferrer">flak.tedunangst.com/post/doas-mastery</a></p>
+				<p>Це ввімкне стандартну в <code>sudo</code> функцію просити пароля лише вперше за сесію.</p>
 
-		<p><a href="/">Повернутися</a></p>
-</body>
+				<p>Докладніше про трюки в <code>doas</code> можна почитати англійською: <a href="https://flak.tedunangst.com/post/doas-mastery" target="\_blank" rel="noopener noreferrer">flak.tedunangst.com/post/doas-mastery</a></p>
+
+			</article>
+			<nav><a href="/">Повернутися</a><nav>
+	</body>
+
+</html>
