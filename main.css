@@ -15,3 +15,7 @@ code {
 	font-size: 85%;
 	background-color: lightgray;
 }
+
+summary {
+	cursor: pointer;
+}
