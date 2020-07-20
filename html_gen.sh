@@ -38,11 +38,13 @@ echo  '\t\t</head>\n' >> $dest
 
 echo  '\t<body>' >> $dest
 echo  '\t\t<article>\n' >> $dest
-echo  "\t\t\t<h1>$TITLE</h1>\n\n" >> $dest
-
+echo  "\t\t\t<header>" >> $dest
+echo  "\t\t\t\t<h1>$TITLE</h1>" >> $dest
+echo  "\t\t\t\t<small>` date -d $PUBDATE +%d-%m-%Y `</small>" >> $dest
+echo  "\t\t\t</header>\n" >> $dest
 
 echo  '\t\t</article>' >> $dest
-echo  '\t\t<nav><a href="/">Повернутися</a></nav>' >> $dest
+echo  '\t\t<nav>\n\t\t\t<a href="/">Повернутися</a>\n\t\t</nav>' >> $dest
 echo  '\t</body>\n' >> $dest
 
 echo  '</html>' >> $dest
