@@ -16,7 +16,7 @@ read -p "Enter short description: " DESC
 
 read -p "Enter keywords (separated by comma): " KEYWORDS
 
-read -p "Enter publication date (format: 2020-07-15T12:05+03:00). Leave empty to edit later. " PUBDATE
+read -p "Enter publication date (format: 2020-07-15T12:05EET). Leave empty to edit later. " PUBDATE
 
 dest="./log/$SLUG"
 

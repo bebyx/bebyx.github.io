@@ -14,10 +14,17 @@
 			<description>Як під'єднати Gentoo GNU/Linux до Wifi — інструкція українською мовою.</description>
 		</item>
 		<item>
+			<title>bebyx: З чого почати вивчати англійську мову? 5 порад</title>
+			<link>https://bebyx.co.ua/log/start-english.html</link>
+			<guid>https://bebyx.co.ua/log/start-english.html</guid>
+			<pubDate>Sat, 16 Nov 2019 16:58:00 +0200</pubDate>
+			<description>З чого почати вивчення англійської мови? 5 цінних інсайтів для вивчення безкоштовно, самостійно, з дому.</description>
+		</item>
+		<item>
 			<title>bebyx: Doas — альтернатива sudo</title>
 			<link>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</link>
 			<guid>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</guid>
-			<pubDate>Thu, 12 Mar 2020 15:25:26 +0200</pubDate>
+			<pubDate>Thu, 12 Mar 2020 16:25:26 +0200</pubDate>
 			<description>Doas — мінімалістична альтернатива утиліті sudo. Встановіть, налаштуйте і користуйтеся.</description>
 		</item>
 		<item>
