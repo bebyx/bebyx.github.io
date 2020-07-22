@@ -40,7 +40,7 @@ echo  '\t<body>' >> $dest
 echo  '\t\t<article>\n' >> $dest
 echo  "\t\t\t<header>" >> $dest
 echo  "\t\t\t\t<h1>$TITLE</h1>" >> $dest
-echo  "\t\t\t\t<small>` date -d $PUBDATE +%d-%m-%Y `</small>" >> $dest
+echo  "\t\t\t\t<small><time datetime=\"$PUBDATE\">` date -d $PUBDATE +%d-%m-%Y `</time></small>" >> $dest
 echo  "\t\t\t</header>\n" >> $dest
 
 echo  '\t\t</article>' >> $dest
