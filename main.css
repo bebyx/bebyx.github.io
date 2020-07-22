@@ -23,3 +23,7 @@ code {
 summary {
 	cursor: pointer;
 }
+
+abbr {
+	cursor: help;
+}
