@@ -32,7 +32,6 @@ echo  "\t\t<meta name=\"keywords\" content=\"$KEYWORDS\">">> $dest
 echo  "\t\t<meta property=\"article:published_time\" content=\"$PUBDATE\" />\n" >> $dest
 
 echo  '\t\t<meta name="viewport" content="width=device-width, initial-scale=1">' >> $dest
-echo  '\t\t<link rel="apple-touch-icon" href="icon.png">' >> $dest
 echo  '\t\t<link rel="stylesheet" href="../main.css">' >> $dest
 echo  '\t\t</head>\n' >> $dest
 
