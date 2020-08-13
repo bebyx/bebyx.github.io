@@ -1,0 +1,98 @@
+<!doctype html>
+<html class="no-js" lang="uk">
+
+	<head>
+		<meta charset="utf-8">
+		<title>bebyx: Шпаргалка Vim: Як вийти з Vim'у (:q!) та інші команди</title>
+		<meta name="description" content="Шпаргалка з корисними командами та гарячими клавішами просунутого текстового редактора Vim.">
+		<meta name="author" content="Артем Бебик">
+		<meta name="keywords" content="vim, українською, шпаргалка, cheatsheet">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./main.css">
+		</head>
+
+	<body>
+		<article>
+
+			<header>
+				<h1>Шпаргалка Vim: Як вийти з Vim'у (:q!) та інші команди</h1>
+			</header>
+
+			<p>Я люблю <strong>Vim</strong>. І ви його любите. Тільки про це ще не знаєте.</p>
+
+			<p>Я допоможу дізнатися.</p>
+
+			<h2>Почнімо з основ:</h2>
+
+			<p><strong>Вийти з Vim</strong> — <kbd>:q</kbd> (<i>quit</i>)</p>
+
+			<p>(Загалом, це написано на головній сторінці Vim'у — але ж ви ще не звикли читати довідку, правда?)</p>
+
+			<p>Якщо ви зробили в файлі якісь зміни, що їх не хочете зберігати</br>
+			(а хочете, бляха, просто вийти!) — <kbd>:q!</kbd></p>
+
+			<p><strong>Зберегти зміни</strong> — <kbd>:w</kbd> (<i>write</i>)</p>
+
+			<p><strong>Зберегти зміни і вийти</strong> — <kbd>:x</kbd> або <kbd>:wq</kbd></p>
+
+			<h2>Режими Vim:</h2>
+
+			<p><strong>Режим Введення</strong> — <kbd>i</kbd> (<i>Insert mode</i>)</p>
+			<p><strong>Візуальний режим</strong> — <kbd>v</kbd></p>
+			<p>Вийти до <strong>Командного режиму</strong> — <kbd>Esc</kbd></p>
+
+			<h2>Гарячі клавіші (Командний режим):</h2>
+
+			<ul>
+				<li><kbd>h</kbd> — ліво</li>
+				<li><kbd>j</kbd> — вниз</li>
+				<li><kbd>k</kbd> — угору</li>
+				<li><kbd>l</kbd> — право</li>
+			</ul>
+
+			<p>Те саме можна робити звичайними стрілочками.</p>
+
+			<p>Можна навігувати на кілька рядків (вгору-вниз) чи знаків (вліво-вправо):</p>
+
+			<ul>
+				<li><kbd>5h</kbd></li>
+				<li><kbd>8k</kbd></li>
+				<li><kbd>2l</kbd></li>
+			</ul>
+
+			<p>Де цифри — це кількість рядків/знаків.</p>
+
+			<ul>
+				<li><kbd>^</kbd> (<kbd>Shift</kbd>+<kbd>6</kbd>) — на початок рядку</li>
+				<li><kbd>$</kbd>(<kbd>Shift</kbd>+<kbd>4</kbd>) — на кінець рядку</li>
+				<li><kbd>A</kbd> (<kbd>Shift</kbd>+<kbd>a</kbd>) — на кінець рядку, ввімкнути <b>режим Введення</b> після останного знаку.</li>
+				<br/>
+				<li><kbd>x</kbd> — вирізати знак (де курсор)</li>
+				<li><kbd>dd</kbd> — вирізати рядок (<i>delete</i>)</li>
+				<li><kbd>yy</kbd> — копіювати рядок (<i>yank</i>)</li>
+				<li><kbd>p</kbd> — вставити після поточного рядку/знаку</li>
+				<li><kbd>P</kbd> (<kbd>Shift</kbd>+<kbd>p</kbd>) — вставити перед поточним рядком/знаком</li>
+			</ul>
+
+			<p>Якщо копіювали не рядками, а знаками, то відповідно вставляєте перед/після курсором.</p>
+
+			<ul>
+				<li><kbd>w</kbd> — на початок наступного слова</li>
+				<li><kbd>e</kbd> — на кінець поточного/наступного(якщо курсор на останньому знаці)  слова</li>
+				<li><kbd>b</kbd> — на початок поточного/попереднього(якщо курсора на першому знаці) слова</li>
+				<br/>
+				<li><kbd>gg</kbd> — перший рядок документа</li>
+				<li><kbd>G</kbd> (<kbd>Shift</kbd>+<kbd>g</kbd>) — останній рядок документа</li>
+			</ul>
+
+			<p><mark>Далі буде…</mark></p>
+
+			<p><b>Подальша читанка:</b> <a href="https://www.allitebooks.org/learning-the-vi-and-vim-editors-7th-edition/" target="_blank">Learning The Vi And Vim Editors</a></p>
+		</article>
+		<nav>
+			<a href="/">Повернутися</a>
+		</nav>
+	</body>
+
+</html>
