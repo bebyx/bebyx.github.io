@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://bebyx.co.ua</loc>
-		<lastmod>2020-08-14</lastmod>
+		<lastmod>2020-08-16</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/books/poetyka/txt1.html</loc>
@@ -14,7 +14,7 @@
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/l10n</loc>
-		<lastmod>2020-07-26</lastmod>
+		<lastmod>2020-08-16</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/l10n/zelazny-matador.html</loc>
@@ -30,7 +30,7 @@
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/vim-cheatsheet.html</loc>
-		<lastmod>2020-08-15</lastmod>
+		<lastmod>2020-08-16</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/log/gentoo-wifi.html</loc>
@@ -63,5 +63,13 @@
 	<url>
 		<loc>https://bebyx.co.ua/log/pravopys.html</loc>
 		<lastmod>2020-07-23</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy</loc>
+		<lastmod>2020-08-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/vyhyn-tila.html</loc>
+		<lastmod>2020-08-16</lastmod>
 	</url>
 </urlset>
