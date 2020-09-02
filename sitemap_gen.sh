@@ -4,8 +4,12 @@
 
 find . -name '*.html' -not -name '404.html' -printf '%p %TY-%Tm-%Td \n' | sed "s|\./|https://bebyx\.co\.ua/|g" | sed "s|/index\.html||g" > out
 
-echo '<?xml version="1.0" encoding="UTF-8"?>' > sitemap.xml
-echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' >> sitemap.xml
+cat <<-EOF > sitemap.xml
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9">
+EOF
 
 while read LINE
   do
