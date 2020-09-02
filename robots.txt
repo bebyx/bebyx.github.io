@@ -1,5 +1,5 @@
 User-agent: *
-Allow: /
+Disallow:
 
 Sitemap: https://bebyx.co.ua/sitemap.xml
-Host: https://bebyx.co.ua
+Host: bebyx.co.ua
