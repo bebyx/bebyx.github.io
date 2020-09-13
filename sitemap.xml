@@ -76,8 +76,12 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 		<lastmod>2020-07-23</lastmod>
 	</url>
 	<url>
+		<loc>https://bebyx.co.ua/poesy/shroom-season.html</loc>
+		<lastmod>2020-09-13</lastmod>
+	</url>
+	<url>
 		<loc>https://bebyx.co.ua/poesy</loc>
-		<lastmod>2020-08-23</lastmod>
+		<lastmod>2020-09-13</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/poesy/verse/ster-usi-ruky-ob-samitnist.html</loc>
