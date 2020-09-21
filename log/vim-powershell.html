@@ -1,0 +1,65 @@
+<!doctype html>
+<html class="no-js" lang="uk">
+
+	<head>
+		<meta charset="utf-8">
+		<title>bebyx: Як ужиткувати Vim'ом у Windows PowerShell</title>
+		<meta name="description" content="Як встановити Vim у Windows PowerShell? Користуйтеся й там найкращим текстовим редактором — за допомогою менеджера пакунків Chocolatey.">
+		<meta name="author" content="Артем Бебик">
+		<meta name="keywords" content="Vim, Windows, PowerShell, Linux, Chocolatey">
+		<meta property="article:published_time" content="2020-09-21T18:42:39EEST" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../main.css">
+		</head>
+
+	<body>
+		<article>
+
+			<header>
+				<h1>Як ужиткувати Vim'ом у Windows PowerShell</h1>
+				<small><time datetime="2020-09-21T18:42:39EEST">21-09-2020</time></small>
+			</header>
+
+			<p>Вінда масдай — і малому зрозуміло.</p>
+
+			<p>Але поки вона не дай, часом обставини примушують адаптувати прекрасне Лінуксове середовище під потворну, недоладну, незугарну Шінду. Наприклад, на роботі.</p>
+
+			<p>Сам стикнувся з ситуацією. І виникла проблема, найбанальніша для <em>GNU/Linux</em>, але, як виявилося, дуже тяжка для <strong>Windows 10</strong>.</p>
+
+			<p>А саме — <b>працювати з текстами через термінал</b>, ясна річ, найліпшим текстовим редактором <strong>Vim</strong>.</p>
+
+			<p>Навіть коли встановлюєш віндо́вський gVim, то ніфіга не працює в PowerShell.</p>
+
+			<p>Поліз в Інтернет — самі костурі й неінтуїтивні рішення.</p>
+
+			<p>А бавлячися з Terraform'ом, натрапив на такий цікавий менджер пакунків <strong><em>Chocolatey</em></strong>. Так-так, для вінди.</p>
+
+			<p>Отам і виявив найпростіший і найзручніший спосіб <u>встановити Vim у PowerShell</u>.</p>
+
+			<ol>
+				<li>Встановлюєте Chocolatey <a href="https://chocolatey.org/install" target="_blank">за інструкцією</a>.</li>
+				<li>Встановлюєте Vim менеджером пакунків: <code>choco install vim</code>. Все як у людей.</li>
+				<li>Працюєте з Vim'ом як звичне: приміром, <code>vim file.txt</code> у PowerShell.</li>
+				<li>Насолоджуєтеся тим, що Vim тепер працює як годиться.</li>
+			</ol>
+
+			<p>У разі треба би було оновити чи видалити Vim, то робите це теж через Chocolatey, відповідно:</p>
+
+			<p><code>choco upgrade vim</code></p>
+
+			<p><code>choco uninstall vim</code></p>
+
+			<p>Довідка по командах: <code>choco -h</code>, або <code>choco --help</code>, або <code>choco -?</code>.</p>
+
+			<h2>Геть альтернативний варіянт</h2>
+
+			<p>Встановити Git-Bash разом з <a href="https://gitforwindows.org/" target="_blank">Git for Windows</a> — і насолоджуватися вшитим у нього з коробки Vim'ом.</p>
+
+		</article>
+		<nav>
+			<a href="/">Повернутися</a>
+		</nav>
+	</body>
+
+</html>

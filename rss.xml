@@ -53,7 +53,7 @@
 			<link>https://bebyx.co.ua/log/anti-stalin-mina.html</link>
 			<guid>https://bebyx.co.ua/log/anti-stalin-mina.html</guid>
 			<pubDate>Wed, 09 Oct 2019 11:45:00 +0300</pubDate>
-			<description>Анти-сталінська міна — на статтю Тараса Прохаська «Сталінська міна».</description>
+			<description>На статтю Тараса Прохаська «Сталінська міна».</description>
 		</item>
 		<item>
 			<title>bebyx: Чому я не люблю слова "контент"?</title>
@@ -68,6 +68,13 @@
 			<guid>https://bebyx.co.ua/log/pravopys.html</guid>
 			<pubDate>Thu, 28 May 2020 11:46:00 +0300</pubDate>
 			<description>Моя думка про &quot;новий&quot; правопис української мови. Коротко і ясно.</description>
+		</item>
+		<item>
+			<title>bebyx: Як ужиткувати Vim'ом у Windows PowerShell</title>
+			<link>https://bebyx.co.ua/log/vim-powershell.html</link>
+			<guid>https://bebyx.co.ua/log/vim-powershell.html</guid>
+			<pubDate>Mon, 21 Sep 2020 18:42:39 +0300</pubDate>
+			<description>Як встановити Vim у Windows PowerShell? Користуйтеся й там найкращим текстовим редактором — за допомогою менеджера пакунків Chocolatey.</description>
 		</item>
 	</channel>
 </rss>

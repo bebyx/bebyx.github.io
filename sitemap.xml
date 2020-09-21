@@ -5,7 +5,7 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
           http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	<url>
 		<loc>https://bebyx.co.ua</loc>
-		<lastmod>2020-09-02</lastmod>
+		<lastmod>2020-09-21</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/books/poetyka/txt1.html</loc>
@@ -74,6 +74,10 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 	<url>
 		<loc>https://bebyx.co.ua/log/pravopys.html</loc>
 		<lastmod>2020-07-23</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/vim-powershell.html</loc>
+		<lastmod>2020-09-21</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/poesy/shroom-season.html</loc>
