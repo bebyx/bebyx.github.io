@@ -5,7 +5,7 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
           http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	<url>
 		<loc>https://bebyx.co.ua</loc>
-		<lastmod>2020-09-21</lastmod>
+		<lastmod>2020-10-17</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/books/poetyka/txt1.html</loc>
@@ -17,7 +17,7 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/l10n</loc>
-		<lastmod>2020-09-02</lastmod>
+		<lastmod>2020-10-17</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/l10n/keats-day-gone.html</loc>
@@ -50,6 +50,10 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 	<url>
 		<loc>https://bebyx.co.ua/log/cossack-basterds.html</loc>
 		<lastmod>2020-08-14</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/planescape-comix.html</loc>
+		<lastmod>2020-10-17</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</loc>
