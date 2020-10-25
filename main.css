@@ -31,3 +31,21 @@ summary {
 abbr {
 	cursor: help;
 }
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: gray;
+}
+
+a:hover {
+	background-color: black;
+	color: white;
+}
+
+a:active {
+	background-color: gray;
+	color: white;
+}
