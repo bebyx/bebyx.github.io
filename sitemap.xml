@@ -97,11 +97,19 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/poesy</loc>
-		<lastmod>2020-11-25</lastmod>
+		<lastmod>2020-12-25</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/kholodne-kakao.html</loc>
+		<lastmod>2020-12-25</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/poesy/verse/ster-usi-ruky-ob-samitnist.html</loc>
 		<lastmod>2020-08-22</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/zalyzana-ozheledytsia.html</loc>
+		<lastmod>2020-12-25</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/poesy/verse/vyhyn-tila.html</loc>
@@ -110,6 +118,14 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 	<url>
 		<loc>https://bebyx.co.ua/poesy/verse/budivnyk-rykhtuje-vezhu.html</loc>
 		<lastmod>2020-11-25</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/jakshcho-mene-vbjut.html</loc>
+		<lastmod>2020-12-25</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/tak-jak-ptakha.html</loc>
+		<lastmod>2020-12-25</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/poesy/verse/zvechorilyj-kolioramy-psykhodeliky.html</loc>
@@ -128,12 +144,24 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 		<lastmod>2020-08-22</lastmod>
 	</url>
 	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/ubyvchy-char-m.html</loc>
+		<lastmod>2020-12-25</lastmod>
+	</url>
+	<url>
 		<loc>https://bebyx.co.ua/poesy/verse/tini-miniatsia-na-shcherblenykh-storinkakh-knyzhky.html</loc>
 		<lastmod>2020-08-22</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/poesy/verse/vy-luibyte-zory.html</loc>
 		<lastmod>2020-11-25</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/slukhaj-siuda-na.html</loc>
+		<lastmod>2020-12-25</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/proletar.html</loc>
+		<lastmod>2020-12-25</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/poesy/verse/zakokhanyj-u-lito.html</loc>
@@ -168,12 +196,28 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 		<lastmod>2020-08-22</lastmod>
 	</url>
 	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/hnyla-kanalizatsija.html</loc>
+		<lastmod>2020-12-25</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/khochu-vpykhaty-pisky.html</loc>
+		<lastmod>2020-12-25</lastmod>
+	</url>
+	<url>
 		<loc>https://bebyx.co.ua/poesy/verse/ja-vizmu-kyziakovi-parfumy.html</loc>
 		<lastmod>2020-08-22</lastmod>
 	</url>
 	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/ja-shchaslyvyj.html</loc>
+		<lastmod>2020-12-25</lastmod>
+	</url>
+	<url>
 		<loc>https://bebyx.co.ua/poesy/verse/tvoji-huby-nache.html</loc>
 		<lastmod>2020-08-23</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/prianyj-zapakh-kokhanoji.html</loc>
+		<lastmod>2020-12-25</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/poesy/verse/sonce-kriz-lystvu.html</loc>
