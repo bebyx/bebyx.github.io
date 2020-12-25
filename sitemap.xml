@@ -4,8 +4,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
           http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 	<url>
+		<loc>https://bebyx.co.ua/about.html</loc>
+		<lastmod>2020-12-25</lastmod>
+	</url>
+	<url>
 		<loc>https://bebyx.co.ua</loc>
-		<lastmod>2020-11-07</lastmod>
+		<lastmod>2020-12-25</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/books/poetyka/txt1.html</loc>
@@ -14,6 +18,10 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 	<url>
 		<loc>https://bebyx.co.ua/books/poetyka.html</loc>
 		<lastmod>2020-07-23</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/web-archive.html</loc>
+		<lastmod>2020-12-25</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/l10n</loc>
@@ -109,7 +117,7 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/poesy/verse/babyne-lito.html</loc>
-		<lastmod>2020-11-24</lastmod>
+		<lastmod>2020-11-25</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/poesy/verse/bozhe-mij-bozhe.html</loc>
@@ -141,7 +149,7 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/poesy/verse/vechirnij-tramvaj-u-serpni.html</loc>
-		<lastmod>2020-11-24</lastmod>
+		<lastmod>2020-11-25</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/poesy/verse/kvadratom-chornym-zatulylo-tvoje-nebo.html</loc>
