@@ -9,7 +9,7 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua</loc>
-		<lastmod>2020-12-27</lastmod>
+		<lastmod>2020-12-28</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/books/poetyka/txt1.html</loc>
@@ -74,6 +74,10 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 	<url>
 		<loc>https://bebyx.co.ua/log/google-nazi.html</loc>
 		<lastmod>2020-07-23</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/gopher-ua.html</loc>
+		<lastmod>2020-12-28</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/log/anti-stalin-mina.html</loc>
