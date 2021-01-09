@@ -4,7 +4,9 @@ body {
 	padding: 0 1rem;
 	font-size: 1.5rem;
 	font-family: "Liberation Sans", Arial, sans-serif;
-	color: rgba(0,0,0,0.8);
+	color: beige;
+	background-color: #111;
+	line-height: 1.4;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -22,6 +24,9 @@ pre {
 code, kbd {
 	font-size: 85%;
 	background-color: lightgray;
+	color: black;
+	padding-left: 1px;
+	padding-right: 1px;
 }
 
 summary {
@@ -33,21 +38,26 @@ abbr {
 }
 
 a:link {
-	color: black;
+	color: lightgreen;
 }
 
 a:visited {
-	color: gray;
+	color: #c7f6c7;
 }
 
 a:hover {
-	background-color: black;
-	color: white;
+	background-color: beige;
+	color: #111;
 	text-decoration: none;
 }
 
 a:active {
 	background-color: gray;
-	color: white;
+	color: #111;
 	text-decoration: none;
+}
+
+::selection {
+	background-color: green;
+	color: white;
 }
