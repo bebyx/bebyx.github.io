@@ -9,7 +9,7 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua</loc>
-		<lastmod>2021-01-18</lastmod>
+		<lastmod>2021-01-27</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/books/poetyka/txt1.html</loc>
@@ -98,6 +98,10 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 	<url>
 		<loc>https://bebyx.co.ua/log/vim-powershell.html</loc>
 		<lastmod>2020-09-21</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/anti-pastoral-franko.html</loc>
+		<lastmod>2021-01-27</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/poesy/shroom-season.html</loc>

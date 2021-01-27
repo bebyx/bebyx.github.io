@@ -90,5 +90,12 @@
 			<pubDate>Mon, 21 Sep 2020 18:42:39 +0300</pubDate>
 			<description>Як встановити Vim у Windows PowerShell? Користуйтеся й там найкращим текстовим редактором — за допомогою менеджера пакунків Chocolatey.</description>
 		</item>
+		<item>
+			<title>bebyx: Про пасторалізацію щастя</title>
+			<link>https://bebyx.co.ua/log/anti-pastoral-franko.html</link>
+			<guid>https://bebyx.co.ua/log/anti-pastoral-franko.html</guid>
+			<pubDate>Wed, 27 Jan 2021 11:59:00 +0200</pubDate>
+			<description>Франко про пасторалізацію щастя та недоречну ідеалізацію сільського життя містянами</description>
+		</item>
 	</channel>
 </rss>
