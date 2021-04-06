@@ -241,14 +241,22 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/en/about.html</loc>
-		<lastmod>2021-04-05</lastmod>
+		<lastmod>2021-04-06</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/en</loc>
-		<lastmod>2021-04-05</lastmod>
+		<lastmod>2021-04-06</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/en/links.html</loc>
+		<lastmod>2021-04-06</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/en/projects.html</loc>
+		<lastmod>2021-04-06</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/en/log/quotix-program.html</loc>
-		<lastmod>2021-04-05</lastmod>
+		<lastmod>2021-04-06</lastmod>
 	</url>
 </urlset>
