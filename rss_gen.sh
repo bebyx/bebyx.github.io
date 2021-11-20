@@ -37,4 +37,6 @@ echo -e '</rss>' >> rss.xml
 
 rm ./out
 
+sed -i 's/&quot;/"/g' rss.xml
+
 exit
