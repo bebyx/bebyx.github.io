@@ -3,268 +3,276 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
           http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-\t<url>
-\t\t<loc>https://bebyx.co.ua/en/log/quotix-program.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/en/links.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/en</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/en/about.html</loc>
-\t\t<lastmod>2021-11-20</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/en/projects.html</loc>
-\t\t<lastmod>2021-11-20</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/l10n/keats-day-gone.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/l10n</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/l10n/eldorado-poe.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/l10n/zelazny-matador.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/log/pravopys.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/log/quotix-program.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/log/anti-content.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/log/planescape-comix.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/log/start-english.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/log/anti-stalin-mina.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/log/vim-powershell.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/log/cossack-basterds.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/log/gentoo-wifi.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/log/gopher-ua.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/log/google-nazi.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/log/boyova-pisnya-ukrainstva.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/log/anti-pastoral-franko.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/create-website.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/links.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua</loc>
-\t\t<lastmod>2021-11-20</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/books/poetyka/txt1.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/books/poetyka.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/about.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/web-archive.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/doomsday.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/shroom-season.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/prianyj-zapakh-kokhanoji.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/vechirnij-tramvaj-u-serpni.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/zakokhanyj-u-lito.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/kvadratom-chornym-zatulylo-tvoje-nebo.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/slukhaj-siuda-na.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/hudyt-kompjuter-ponochi-zalyplo.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/jakshcho-mene-vbjut.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/tak-jak-ptakha.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/zvechorilyj-kolioramy-psykhodeliky.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/ja-zakokhanyj-u-kozhnu-tvoju-pomylku.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/dlia-mene-vona-kamin.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/hnyla-kanalizatsija.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/ja-vizmu-kyziakovi-parfumy.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/ubyvchy-char-m.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/zoriamy-vsijane-nebo.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/tvoji-huby-nache.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/tini-miniatsia-na-shcherblenykh-storinkakh-knyzhky.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/babyne-lito.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/chomu-ja-liubliu-tebe-svite.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/khochu-vpykhaty-pisky.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/vy-luibyte-zory.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/vyhyn-tila.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/ja-shchaslyvyj.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/sonce-kriz-lystvu.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/budivnyk-rykhtuje-vezhu.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/bozhe-mij-bozhe.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/ster-usi-ruky-ob-samitnist.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/kholodne-kakao.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/bytvy-kaljanshchykiv.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/zalyzana-ozheledytsia.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/verse/proletar.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/poesy/silent-home.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
-\t<url>
-\t\t<loc>https://bebyx.co.ua/vim-cheatsheet.html</loc>
-\t\t<lastmod>2021-11-16</lastmod>
-\t</url>
+	<url>
+		<loc>https://bebyx.co.ua/en/log/quotix-program.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/en/links.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/en</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/en/about.html</loc>
+		<lastmod>2021-11-20</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/en/projects.html</loc>
+		<lastmod>2021-11-20</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/l10n/keats-day-gone.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/l10n</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/l10n/eldorado-poe.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/l10n/zelazny-matador.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/pravopys.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/quotix-program.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/anti-content.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/custom-email.html</loc>
+		<lastmod>2021-11-20</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/planescape-comix.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/start-english.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/anti-stalin-mina.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/vim-powershell.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/cossack-basterds.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/gentoo-wifi.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/gopher-ua.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/google-nazi.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/boyova-pisnya-ukrainstva.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/anti-pastoral-franko.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/custom-mail2.html</loc>
+		<lastmod>2021-11-20</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/create-website.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/links.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua</loc>
+		<lastmod>2021-11-20</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/books/poetyka/txt1.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/books/poetyka.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/about.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/web-archive.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/doomsday.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/shroom-season.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/prianyj-zapakh-kokhanoji.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/vechirnij-tramvaj-u-serpni.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/zakokhanyj-u-lito.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/kvadratom-chornym-zatulylo-tvoje-nebo.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/slukhaj-siuda-na.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/hudyt-kompjuter-ponochi-zalyplo.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/jakshcho-mene-vbjut.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/tak-jak-ptakha.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/zvechorilyj-kolioramy-psykhodeliky.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/ja-zakokhanyj-u-kozhnu-tvoju-pomylku.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/dlia-mene-vona-kamin.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/hnyla-kanalizatsija.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/ja-vizmu-kyziakovi-parfumy.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/ubyvchy-char-m.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/zoriamy-vsijane-nebo.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/tvoji-huby-nache.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/tini-miniatsia-na-shcherblenykh-storinkakh-knyzhky.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/babyne-lito.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/chomu-ja-liubliu-tebe-svite.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/khochu-vpykhaty-pisky.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/vy-luibyte-zory.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/vyhyn-tila.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/ja-shchaslyvyj.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/sonce-kriz-lystvu.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/budivnyk-rykhtuje-vezhu.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/bozhe-mij-bozhe.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/ster-usi-ruky-ob-samitnist.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/kholodne-kakao.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/bytvy-kaljanshchykiv.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/zalyzana-ozheledytsia.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/verse/proletar.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/silent-home.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/vim-cheatsheet.html</loc>
+		<lastmod>2021-11-16</lastmod>
+	</url>
 </urlset>

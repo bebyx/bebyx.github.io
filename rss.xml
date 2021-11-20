@@ -7,25 +7,32 @@
 		<description>Тексти українською мовою.</description>
 		<language>uk-UA</language>
 		<item>
-			<title>bebyx: Як під'єднати Gentoo GNU/Linux до Wifi</title>
-			<link>https://bebyx.co.ua/log/gentoo-wifi.html</link>
-			<guid>https://bebyx.co.ua/log/gentoo-wifi.html</guid>
-			<pubDate>Fri, 10 Jul 2020 17:47:01 +0300</pubDate>
-			<description>Як під'єднати Gentoo GNU/Linux до Wifi — інструкція українською мовою.</description>
+			<title>bebyx: Моя думка про "новий" правопис</title>
+			<link>https://bebyx.co.ua/log/pravopys.html</link>
+			<guid>https://bebyx.co.ua/log/pravopys.html</guid>
+			<pubDate>Thu, 28 May 2020 11:46:00 +0300</pubDate>
+			<description>Моя думка про "новий" правопис української мови. Коротко і ясно.</description>
 		</item>
 		<item>
-			<title>bebyx: З чого почати вивчати англійську мову? 5 порад</title>
-			<link>https://bebyx.co.ua/log/start-english.html</link>
-			<guid>https://bebyx.co.ua/log/start-english.html</guid>
-			<pubDate>Sat, 16 Nov 2019 16:58:00 +0200</pubDate>
-			<description>З чого почати вивчення англійської мови? 5 цінних інсайтів для вивчення безкоштовно, самостійно, з дому.</description>
+			<title>bebyx: Quotix — програма випадкової цитати</title>
+			<link>https://bebyx.co.ua/log/quotix-program.html</link>
+			<guid>https://bebyx.co.ua/log/quotix-program.html</guid>
+			<pubDate>Sat Nov 20 07:00:00 AM EET 2021</pubDate>
+			<description>Quotix — мінімалістична програма, яка виводить випадкову цитату з текстового файлу.</description>
 		</item>
 		<item>
-			<title>bebyx: Безславні виродки по-українськи</title>
-			<link>https://bebyx.co.ua/log/cossack-basterds.html</link>
-			<guid>https://bebyx.co.ua/log/cossack-basterds.html</guid>
-			<pubDate>Fri, 14 Aug 2020 11:14:00 +0300</pubDate>
-			<description>Ми маємо показувати як наші предки перемагали, вбивали, катували, хитрощами та обманом здобували те, що їм треба. І дивлячись, отримувати задоволення як від кривавих «Гайдамаків» Шевченка.</description>
+			<title>bebyx: Чому я не люблю слова "контент"?</title>
+			<link>https://bebyx.co.ua/log/anti-content.html</link>
+			<guid>https://bebyx.co.ua/log/anti-content.html</guid>
+			<pubDate>Wed, 15 Jul 2020 12:05:00 +0300</pubDate>
+			<description>Чому я не люблю слова "контент"? Моя відповідь — відповідь Річарда Столмена.</description>
+		</item>
+		<item>
+			<title>bebyx: Власний емейл</title>
+			<link>https://bebyx.co.ua/log/custom-email.html</link>
+			<guid>https://bebyx.co.ua/log/custom-email.html</guid>
+			<pubDate>Sat Nov 20 07:00:00 AM EET 2021</pubDate>
+			<description>Новий емейл на власному мейл-сервері.</description>
 		</item>
 		<item>
 			<title>bebyx: Planescape: але не Torment — комікс «Єдність перснів»</title>
@@ -35,32 +42,11 @@
 			<description>Planescape: але не Torment — комікс «Єдність перснів» українською мовою.</description>
 		</item>
 		<item>
-			<title>bebyx: Doas — альтернатива sudo</title>
-			<link>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</link>
-			<guid>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</guid>
-			<pubDate>Thu, 12 Mar 2020 16:25:26 +0200</pubDate>
-			<description>Doas — мінімалістична альтернатива утиліті sudo. Встановіть, налаштуйте і користуйтеся.</description>
-		</item>
-		<item>
-			<title>bebyx: Бойова пісня українства</title>
-			<link>https://bebyx.co.ua/log/boyova-pisnya-ukrainstva.html</link>
-			<guid>https://bebyx.co.ua/log/boyova-pisnya-ukrainstva.html</guid>
-			<pubDate>Fri, 31 May 2019 13:20:00 +0300</pubDate>
-			<description>Бойова пісня українства — виконує Хорея Козацька, текст на основі вірша Анатолія Свидницького.</description>
-		</item>
-		<item>
-			<title>bebyx: Ґуґлонацизм проти українців</title>
-			<link>https://bebyx.co.ua/log/google-nazi.html</link>
-			<guid>https://bebyx.co.ua/log/google-nazi.html</guid>
-			<pubDate>Fri, 17 Jul 2020 16:14:00 +0300</pubDate>
-			<description>Українцю! Ґуґл не просто дискрімінує тебе за мовною ознакою, а й уважає надто тупим, аби ти знав англійську.</description>
-		</item>
-		<item>
-			<title>bebyx: Український Gopher</title>
-			<link>https://bebyx.co.ua/log/gopher-ua.html</link>
-			<guid>https://bebyx.co.ua/log/gopher-ua.html</guid>
-			<pubDate>Mon, 28 Dec 2020 15:23:00 +0200</pubDate>
-			<description>Запустив, напевно, перший український gopherhole.</description>
+			<title>bebyx: З чого почати вивчати англійську мову? 5 порад</title>
+			<link>https://bebyx.co.ua/log/start-english.html</link>
+			<guid>https://bebyx.co.ua/log/start-english.html</guid>
+			<pubDate>Sat, 16 Nov 2019 16:58:00 +0200</pubDate>
+			<description>З чого почати вивчення англійської мови? 5 цінних інсайтів для вивчення безкоштовно, самостійно, з дому.</description>
 		</item>
 		<item>
 			<title>bebyx: Анти-сталінська міна</title>
@@ -70,32 +56,53 @@
 			<description>На статтю Тараса Прохаська «Сталінська міна».</description>
 		</item>
 		<item>
-			<title>bebyx: Чому я не люблю слова "контент"?</title>
-			<link>https://bebyx.co.ua/log/anti-content.html</link>
-			<guid>https://bebyx.co.ua/log/anti-content.html</guid>
-			<pubDate>Wed, 15 Jul 2020 12:05:00 +0300</pubDate>
-			<description>Чому я не люблю слова &quot;контент&quot;? Моя відповідь — відповідь Річарда Столмена.</description>
-		</item>
-		<item>
-			<title>bebyx: Quotix — програма випадкової цитати</title>
-			<link>https://bebyx.co.ua/log/quotix-program.html</link>
-			<guid>https://bebyx.co.ua/log/quotix-program.html</guid>
-			<pubDate>Mon 05 Apr 2021 08:00:00 AM EEST</pubDate>
-			<description>Quotix — мінімалістична програма, яка виводить випадкову цитату з текстового файлу.</description>
-		</item>
-		<item>
-			<title>bebyx: Моя думка про "новий" правопис</title>
-			<link>https://bebyx.co.ua/log/pravopys.html</link>
-			<guid>https://bebyx.co.ua/log/pravopys.html</guid>
-			<pubDate>Thu, 28 May 2020 11:46:00 +0300</pubDate>
-			<description>Моя думка про &quot;новий&quot; правопис української мови. Коротко і ясно.</description>
-		</item>
-		<item>
 			<title>bebyx: Як ужиткувати Vim'ом у Windows PowerShell</title>
 			<link>https://bebyx.co.ua/log/vim-powershell.html</link>
 			<guid>https://bebyx.co.ua/log/vim-powershell.html</guid>
 			<pubDate>Mon, 21 Sep 2020 18:42:39 +0300</pubDate>
 			<description>Як встановити Vim у Windows PowerShell? Користуйтеся й там найкращим текстовим редактором — за допомогою менеджера пакунків Chocolatey.</description>
+		</item>
+		<item>
+			<title>bebyx: Doas — альтернатива sudo</title>
+			<link>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</link>
+			<guid>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</guid>
+			<pubDate>Thu, 12 Mar 2020 16:25:26 +0200</pubDate>
+			<description>Doas — мінімалістична альтернатива утиліті sudo. Встановіть, налаштуйте і користуйтеся.</description>
+		</item>
+		<item>
+			<title>bebyx: Безславні виродки по-українськи</title>
+			<link>https://bebyx.co.ua/log/cossack-basterds.html</link>
+			<guid>https://bebyx.co.ua/log/cossack-basterds.html</guid>
+			<pubDate>Fri, 14 Aug 2020 11:14:00 +0300</pubDate>
+			<description>Ми маємо показувати як наші предки перемагали, вбивали, катували, хитрощами та обманом здобували те, що їм треба. І дивлячись, отримувати задоволення як від кривавих «Гайдамаків» Шевченка.</description>
+		</item>
+		<item>
+			<title>bebyx: Як під'єднати Gentoo GNU/Linux до Wifi</title>
+			<link>https://bebyx.co.ua/log/gentoo-wifi.html</link>
+			<guid>https://bebyx.co.ua/log/gentoo-wifi.html</guid>
+			<pubDate>Fri, 10 Jul 2020 17:47:01 +0300</pubDate>
+			<description>Як під'єднати Gentoo GNU/Linux до Wifi — інструкція українською мовою.</description>
+		</item>
+		<item>
+			<title>bebyx: Український Gopher</title>
+			<link>https://bebyx.co.ua/log/gopher-ua.html</link>
+			<guid>https://bebyx.co.ua/log/gopher-ua.html</guid>
+			<pubDate>Mon, 28 Dec 2020 15:23:00 +0200</pubDate>
+			<description>Запустив, напевно, перший український gopherhole.</description>
+		</item>
+		<item>
+			<title>bebyx: Ґуґлонацизм проти українців</title>
+			<link>https://bebyx.co.ua/log/google-nazi.html</link>
+			<guid>https://bebyx.co.ua/log/google-nazi.html</guid>
+			<pubDate>Fri, 17 Jul 2020 16:14:00 +0300</pubDate>
+			<description>Українцю! Ґуґл не просто дискрімінує тебе за мовною ознакою, а й уважає надто тупим, аби ти знав англійську.</description>
+		</item>
+		<item>
+			<title>bebyx: Бойова пісня українства</title>
+			<link>https://bebyx.co.ua/log/boyova-pisnya-ukrainstva.html</link>
+			<guid>https://bebyx.co.ua/log/boyova-pisnya-ukrainstva.html</guid>
+			<pubDate>Fri, 31 May 2019 13:20:00 +0300</pubDate>
+			<description>Бойова пісня українства — виконує Хорея Козацька, текст на основі вірша Анатолія Свидницького.</description>
 		</item>
 		<item>
 			<title>bebyx: Про пасторалізацію щастя</title>
