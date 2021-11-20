@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 #A script to generate sitemap.xml
 
@@ -14,10 +14,10 @@ EOF
 
 while read LINE
   do
-    echo '\t<url>' >> sitemap.xml
-    echo "\t\t<loc>`echo "$LINE" | cut -d " " -f1`</loc>" >> sitemap.xml
-    echo "\t\t<lastmod>`echo "$LINE" | cut -d " " -f2`</lastmod>" >> sitemap.xml
-    echo '\t</url>' >> sitemap.xml
+    echo -e '\t<url>' >> sitemap.xml
+    echo -e "\t\t<loc>`echo "$LINE" | cut -d " " -f1`</loc>" >> sitemap.xml
+    echo -e "\t\t<lastmod>`echo "$LINE" | cut -d " " -f2`</lastmod>" >> sitemap.xml
+    echo -e '\t</url>' >> sitemap.xml
 done < out
 
 echo '</urlset>' >> sitemap.xml
