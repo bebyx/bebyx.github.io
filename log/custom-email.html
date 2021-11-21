@@ -145,6 +145,43 @@
 				Сподіваюся ця інфа зекономить вам пів дня зневадження.
 			</p>
 
+			<h3>Дозволи для Spamassassin</h3>
+
+			<p>
+				Ще одна деталь, випущена ґайдом Linode: користувач
+				 <a href="https://serverfault.com/a/809714/582711" target="_blank">spamd потребуватиме доступу</a>
+				 до деяких конфігураційних файлів Postfix. Інакше скановані Spamassassin'ом вхідні емейли smapd не зможе доставити — і ті висітимуть у «черзі».
+			</p>
+
+			<p>
+				Відтак потрібно дозволити читати потрібні конфігураційні файли користувачам з не-root груп:</br>
+				<code>
+					sudo chmod 755 /etc/postfix</br>
+					sudo chmod 644 /etc/postfix/main.cf</br>
+					sudo chmod 644 /etc/postfix/dynamicmaps.cf
+				</code>
+			</p>
+
+			<p>
+				Результат має бути таким:</br>
+				<code>
+					$ sudo ls -lad /etc/postfix /etc/postfix/main.cf /etc/postfix/dynamicmaps.cf</br>
+					drwxr-xr-x 5 root root 4096 Nov 21 18:45 /etc/postfix</br>
+					-rw-r--r-- 1 root root   99 Nov 19 02:06 /etc/postfix/dynamicmaps.cf</br>
+					-rw-r--r-- 1 root root 3537 Nov 19 02:31 /etc/postfix/main.cf
+				</code>
+			</p>
+
+			<p>
+				Коли що, глядіти недоставлені емейли і причини затримки:</br>
+				<code>sudo mailq</code>
+			</p>
+
+			<p>
+				А форсувати доставку (скажімо, коли вже поправили дозволи конф. файлів):</br>
+				<code>sudo postqueue -f</code>
+			</p>
+
 			<h2>Післяслово</h2>
 
 			<p>Сутність технологій електронної пошти — федералізованість.
