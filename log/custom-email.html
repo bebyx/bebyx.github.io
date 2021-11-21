@@ -99,31 +99,39 @@
 			</p>
 
 			<p>
-				Для base64:</br>
-				<code>sudo doveadm pw -s SHA512-CRYPT.base64 -p "p@$$w0rd" -r 5000` # або .b64</code>
+				Для <b>base64</b>:</br>
+				<code>sudo doveadm pw -s SHA512-CRYPT.base64 -p 'p@$$w0rd' -r 5000` # або .b64</code>
 			</p>
 
 			<p>
-				Для hex:</br>
-				<code>sudo doveadm pw -s SHA512-CRYPT.hex -p "p@$$w0rd" -r 5000</code>
+				Для <b>hex</b>:</br>
+				<code>sudo doveadm pw -s SHA512-CRYPT.hex -p 'p@$$w0rd' -r 5000</code>
 			</p>
+
+			<fieldset>
+				<legend>Важливо</legend>
+					<p>
+						Якщо в паролі є знак <b>$</b>, доконче використовуйте одинарні лапки <b>'</b>.
+					</p>
+			</fieldset>
 
 			<p>
 				Швидко перевірити коректність шифрування можна тією ж командою Dovecot'а, наприклад, для b64:</br>
-				<code>sudo dovecot pw -t {SHA512-CRYPT.B64}${ВАШ_ШИФР}</code>
+				<code>sudo dovecot pw -t {SHA512-CRYPT.B64}ВАШ_ШИФР</code>
 			</p>
 
 			<p>
-				Перш ніж закидати нового шифра до бази даних, пам'ятайте збільшити допустиму кількість символів у відповідній клітинці <b>бази даних</b>.
+				Перш ніж закидати нового шифра до <b>бази даних</b>, пам'ятайте збільшити допустиму кількість символів у відповідній клітинці.
 				Наприклад, для b64:</br>
 				<code>ALTER TABLE virtual_users MODIFY password VARCHAR(145);</code>
 			</p>
 
 			<p>
+				Отже:
 				<ul>
-					<li>105 для дефолту (дає ґайд від Linode)</li>
-					<li>145 для b64</li>
-					<li>213 для hex</li>
+					<li><i>105 для дефолту (дає ґайд від Linode)</i></li>
+					<li><i>145 для b64</i></li>
+					<li><i>213 для hex</i></li>
 				</ul>
 			</p>
 
