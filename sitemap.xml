@@ -288,10 +288,6 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 		<lastmod>2021-11-16</lastmod>
 	</url>
 	<url>
-		<loc>https://bebyx.co.ua/.#index.html</loc>
-		<lastmod>2022-07-02</lastmod>
-	</url>
-	<url>
 		<loc>https://bebyx.co.ua/vim-cheatsheet.html</loc>
 		<lastmod>2021-11-16</lastmod>
 	</url>
