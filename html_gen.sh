@@ -21,7 +21,7 @@ read -p "Enter publication date (format: 2020-07-15T12:05EEST). Leave empty to e
 dest="./log/$SLUG"
 
 echo -e '<!doctype html>' > $dest
-echo -e '<html class="no-js" lang="uk">\n' >> $dest
+echo -e '<html lang="uk">\n' >> $dest
 
 echo -e '\t<head>' >> $dest
 echo -e '\t\t<meta charset="utf-8">' >> $dest
