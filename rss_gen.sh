@@ -22,7 +22,7 @@ while read LINE
     echo -e '\t\t<item>' >> rss.xml
 
     echo -e "\t\t\t`cat $LINE | grep \<title\>.*\</title\> | sed 's/^\s*//g' `" >> rss.xml
-    echo -e "\t\t\t<author>artem@bebyx.co.ua (Артем Бебик)</author>" >> rss.xml
+    echo -e "\t\t\t<author>Артем Бебик</author>" >> rss.xml
     echo -e "\t\t\t<link>$url</link>" >> rss.xml
     echo -e "\t\t\t<guid>$url</guid>" >> rss.xml
     echo -e "\t\t\t<pubDate>` date -d $pubDate -R `</pubDate>" >> rss.xml

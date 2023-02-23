@@ -149,7 +149,11 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/poesy/doomsday.html</loc>
-		<lastmod>2022-07-02</lastmod>
+		<lastmod>2022-12-10</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/poesy/breaking-town.html</loc>
+		<lastmod>2023-02-23</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/poesy/shroom-season.html</loc>
