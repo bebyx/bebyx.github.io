@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="uk">
+
+	<head>
+		<meta charset="utf-8">
+		<title>bebyx: Як налаштувати GHCup + Haskell LSP в Emacs</title>
+		<meta name="description" content="Як налаштувати GHCup + Haskell LSP в Emacs — інструкція українською мовою.">
+		<meta name="author" content="Артем Бебик">
+		<meta name="keywords" content="emacs, haskell, lsp">
+		<meta property="article:published_time" content="2023-02-23T18:43EET" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="../../main.css">
+		<link rel="stylesheet" href="../../prism/prism.css">
+		
+
+		<link rel="alternate" hreflang="uk" href="https://bebyx.co.ua/log/emacs-haskell-lsp.html" />
+		</head>
+
+	<body>
+		<article>
+
+			<header>
+				<h1>How to setup GHCup + Emacs Haskell LSP</h1>
+				<small><time datetime="2023-02-23T18:43EET">23-02-2023</time></small>
+			</header>
+
+			<p><b><a href="/log/emacs-haskell-lsp.html" hreflang="uk" rel="alternate">Цей допис українською!</a></b></p>
+
+			<p>
+			  Haskell provides a tremendous language server. However, I had some hard minutes fixing Emacs issues with a path to collection of Haskell related binaries installed by GHCup.
+			</p>
+
+			<p>
+			  Hope this post will help you to avoid them.
+			</p>
+
+			<h2>Install GHCup</h2>
+
+			<p>
+			  Pretty straightforward step, just run an installation command from <a href="https://www.haskell.org/ghcup/" target="_blank">GHCup site</a>:
+			</p>
+
+			<pre><code class="language-bash">curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh</code></pre>
+
+			<p>
+			  Wait. Long.
+			</p>
+
+			<h2>Add Haskell packages to init.el</h2>
+
+			<p>
+			  I use <a href="https://github.com/jwiegley/use-package" target="_blank">use-package</a> (and encourage you do the same), hence I install packages in such manner:
+			</p>
+
+			<pre><code class="language-elisp">;;; init.el
+(use-package haskell-mode) ; install mode for Haskell files
+(use-package lsp-mode) ; you will definitely need LSP support
+(use-package lsp-ui) ; that's a nice LSP package as well
+;; finally, Haskell LSP setup:
+(use-package lsp-haskell
+  :hook
+  (haskell-mode . lsp)
+  (haskell-literate-mode . lsp))</code></pre>
+
+			<p>
+			  <a href="https://github.com/bebyx/dotfiles/blob/master/.emacs.d/init.el" target="_blank">My init.el</a> in case you need more context.
+			</p>
+
+			<h2>Teach Emacs where GHCup binaries reside</h2>
+
+			<p>
+			  Two simple lines:
+			</p>
+
+			<pre><code class="language-elisp" data-src="init.el">(setenv "PATH" (concat (getenv "PATH") ":" (expand-file-name "~/.ghcup/bin")))
+(setq exec-path (append exec-path '(expand-file-name "~/.ghcup/bin")))</code></pre>
+
+			<p>
+			  Just put them into <code>init.el</code> and you are done.
+			</p>
+
+			<p>
+			  Nevertheless, I sweated a lot before figuring out that tilda alias (<code>~</code>) works with <code>expand-file-name</code> command only.
+			</p>
+
+		</article>
+		<nav>
+			<a href="/">Back</a>
+		</nav>
+		<script src="../../prism/prism.js"></script>
+		<script>Prism.highlightAll();</script>
+	</body>
+
+</html>

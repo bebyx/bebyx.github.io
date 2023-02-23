@@ -87,6 +87,14 @@
 			<description>Doas — мінімалістична альтернатива утиліті sudo. Встановіть, налаштуйте і користуйтеся.</description>
 		</item>
 		<item>
+			<title>bebyx: Як налаштувати GHCup + Haskell LSP в Emacs</title>
+			<author>Артем Бебик</author>
+			<link>https://bebyx.co.ua/log/emacs-haskell-lsp.html</link>
+			<guid>https://bebyx.co.ua/log/emacs-haskell-lsp.html</guid>
+			<pubDate>Thu, 23 Feb 2023 18:41:00 +0200</pubDate>
+			<description>Як налаштувати GHCup + Haskell LSP в Emacs — інструкція українською мовою.</description>
+		</item>
+		<item>
 			<title>bebyx: Безславні виродки по-українськи</title>
 			<author>Артем Бебик</author>
 			<link>https://bebyx.co.ua/log/cossack-basterds.html</link>

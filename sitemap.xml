@@ -8,6 +8,10 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 		<lastmod>2022-07-02</lastmod>
 	</url>
 	<url>
+		<loc>https://bebyx.co.ua/en/log/emacs-haskell-lsp.html</loc>
+		<lastmod>2023-02-23</lastmod>
+	</url>
+	<url>
 		<loc>https://bebyx.co.ua/en/links.html</loc>
 		<lastmod>2022-07-02</lastmod>
 	</url>
@@ -78,6 +82,10 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 	<url>
 		<loc>https://bebyx.co.ua/log/doas-alternatyva-sudo.html</loc>
 		<lastmod>2022-07-02</lastmod>
+	</url>
+	<url>
+		<loc>https://bebyx.co.ua/log/emacs-haskell-lsp.html</loc>
+		<lastmod>2023-02-23</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/log/cossack-basterds.html</loc>
