@@ -112,6 +112,10 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 		<lastmod>2022-07-02</lastmod>
 	</url>
 	<url>
+		<loc>https://bebyx.co.ua/code</loc>
+		<lastmod>2023-03-22</lastmod>
+	</url>
+	<url>
 		<loc>https://bebyx.co.ua/create-website.html</loc>
 		<lastmod>2022-07-02</lastmod>
 	</url>
