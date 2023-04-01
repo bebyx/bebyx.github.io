@@ -136,12 +136,16 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 		<lastmod>2022-07-02</lastmod>
 	</url>
 	<url>
+		<loc>https://bebyx.co.ua/books/poetyka/txt6.html</loc>
+		<lastmod>2023-04-01</lastmod>
+	</url>
+	<url>
 		<loc>https://bebyx.co.ua/books/poetyka/txt1.html</loc>
 		<lastmod>2022-07-02</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/books/poetyka/txt5.html</loc>
-		<lastmod>2022-07-02</lastmod>
+		<lastmod>2023-04-01</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/books/poetyka/txt2.html</loc>
@@ -149,7 +153,7 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/books/poetyka.html</loc>
-		<lastmod>2022-07-02</lastmod>
+		<lastmod>2023-04-01</lastmod>
 	</url>
 	<url>
 		<loc>https://bebyx.co.ua/about.html</loc>
